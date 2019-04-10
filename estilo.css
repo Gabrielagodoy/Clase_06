@@ -1,0 +1,44 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+@import url('https://fonts.googleapis.com/css?family=Lora');
+
+body {
+  font-family: 'Lora', serif;
+  padding-top: 3.5rem;
+}
+
+.jumbotron{
+  background:
+  linear-gradient(to bottom, rgba(200,200,200,0.2)0%, rgba(200,200,200,0.6)100%),
+  url("https://elpersonalista.com/wp-content/uploads/2017/06/mesa-comida-modales-etiqueta-platillos.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+
+}
+
+
+/*
+img class="text-center mx-auto"
+
+
+/*
+img class="text-center mx-auto"
+
+@media only screen and (max-width: 1080px) {
+  body {
+    background-color: lightblue;
+  }
+}
+*/
+
+/*
+@keyframes mymove {
+  0% {
+    background-color: #ff4081;
+  }
+  100% {
+    background-color: #ff79b0;
+    animation: mymove 4s infinite;
+  }
+}
+/*
